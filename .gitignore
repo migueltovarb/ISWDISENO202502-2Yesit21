@@ -1,0 +1,134 @@
+# ===================================
+# PROYECTO: Sistema de Reserva de Salas
+# ===================================
+
+# ===================================
+# FRONTEND (Next.js)
+# ===================================
+
+# Dependencies
+Frontend/node_modules/
+Frontend/.pnp
+Frontend/.pnp.js
+
+# Testing
+Frontend/coverage/
+
+# Next.js
+Frontend/.next/
+Frontend/out/
+Frontend/build/
+Frontend/dist/
+
+# Production
+Frontend/build
+
+# Misc
+Frontend/.DS_Store
+Frontend/*.pem
+
+# Debug
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# Local env files
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# Vercel
+Frontend/.vercel
+
+# Typescript
+Frontend/*.tsbuildinfo
+Frontend/next-env.d.ts
+
+# ===================================
+# BACKEND (Spring Boot)
+# ===================================
+
+# Compiled class files
+Backend/target/
+Backend/!.mvn/wrapper/maven-wrapper.jar
+Backend/!**/src/main/**/target/
+Backend/!**/src/test/**/target/
+
+# Log files
+Backend/*.log
+Backend/logs/
+
+# Package Files
+Backend/*.jar
+Backend/*.war
+Backend/*.nar
+Backend/*.ear
+Backend/*.zip
+Backend/*.tar.gz
+Backend/*.rar
+
+# Maven
+Backend/.mvn/
+Backend/mvnw
+Backend/mvnw.cmd
+
+# IDE
+Backend/.idea/
+Backend/*.iws
+Backend/*.iml
+Backend/*.ipr
+Backend/.vscode/
+Backend/.settings/
+Backend/.classpath
+Backend/.project
+
+# Spring Boot
+Backend/application-*.yml
+Backend/application-*.properties
+
+# ===================================
+# GENERAL
+# ===================================
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Environment variables (IMPORTANTE: No subir credenciales)
+.env
+.env.local
+.env.*.local
+
+# ===================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ===================================
+
+# Qodo (herramienta de desarrollo)
+.qodo/
+
+# Archivos de análisis (opcional, puedes comentar si quieres subirlos)
+# ANALISIS_*.md
+# VERIFICACION_*.md
