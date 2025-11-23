@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: demo
+  data:
+    mongodb:
+      uri: mongodb+srv://YesitAndrade:2010jared@cluster0.9uetlg5.mongodb.net/demo?appName=Cluster0&retryWrites=true&w=majority
+      # Optimizaciones de conexión
+      auto-index-creation: true
+  # Optimizaciones de rendimiento
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  mvc:
+    async:
+      request-timeout: 30000
+
+# Configuración JWT
+jwt:
+  secret: miClaveSecretaParaJWTQueEsMuyLargaYSeguraParaElSistemaDeReservas
+  expiration: 86400000 # 24 horas en milisegundos
+
+# Configuración de recordatorios y notificaciones
+app:
+  recordatorios:
+    habilitado: true
+    horas-antes-24h: 24
+    horas-antes-1h: 1
+    minutos-tolerancia-noshow: 15
+    dias-limpieza-notificaciones: 30
+  notificaciones:
+    canal-default: EMAIL
+    email:
+      habilitado: false # Cambiar a true cuando se configure SMTP
+      remitente: noreply@universidad.edu
+    sms:
+      habilitado: false
+    push:
+      habilitado: false
