@@ -1,0 +1,21 @@
+TRABAJO FINAL - DISEÑO DE SOFTWARE
+========================================
+
+Nombre del Proyecto: Sistema de Reserva de Salas de Estudio
+Curso: ISW DISEÑO 2025-02
+Estudiante: [Tu Nombre]
+
+Descripción:
+Sistema web full-stack para la gestión de reservas de salas de estudio universitarias.
+
+Tecnologías:
+- Frontend: Next.js + React + TypeScript
+- Backend: Spring Boot + Java 21
+- Base de Datos: MongoDB Atlas
+
+Estructura:
+- /Frontend - Aplicación web Next.js
+- /Backend - API REST Spring Boot
+- README.md - Documentación completa
+
+Para ejecutar el proyecto, consultar README.md

@@ -1,5 +1,8 @@
 # 📚 Sistema de Reserva de Salas de Estudio
 
+**Trabajo Final - Diseño de Software**  
+**Curso:** ISW DISEÑO 2025-02
+
 Sistema web full-stack para la gestión de reservas de salas de estudio universitarias, desarrollado con Next.js, Spring Boot y MongoDB Atlas.
 
 ## 🎯 Características Principales
